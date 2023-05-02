@@ -42,11 +42,15 @@ else...only huge kernel left for you.
 
 #### HOW TO
 Very first time , after installation , you must run script manually to create a database.
-You can to it as root
+You can do it as root
 ```
 /etc/rc.d/autoslack-initrd.sh
 ```
 
-And thats all, after that, if you forget to geninitrd ...for your generic kernel it will do it for you. 
+And thats all, after that, if you forget to 
+```
+geninitrd
+```
+...for your generic kernel, it will do it for you. 
 
 
