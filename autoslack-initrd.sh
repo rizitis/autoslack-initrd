@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Anagnostakis Ioannis GR Crete 26/03/2023
+# Anagnostakis Ioannis GR Crete 02/05/2023
 # Create initrd (generic kernel) when Slackware upgrade-all upgrade kernel release...
 # 
 # In my case I use SBKS and always have a backup kernel in my system. (https://github.com/rizitis/SBKS) #
