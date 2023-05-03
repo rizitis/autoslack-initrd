@@ -38,7 +38,7 @@ fi
 ```
 ### Note that 
 if you dont have slackup-grub installed then you should find a way to auto-update your bootloader.
-else...only huge kernel left for you.
+else...this script will not help.
 
 #### HOW TO
 Very first time , after installation , you must run script manually to create a database.
