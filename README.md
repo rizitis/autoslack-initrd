@@ -53,4 +53,8 @@ geninitrd
 ```
 ...for your generic kernel, it will do it for you. 
 
+###### TODO
+This script and slackup-grub should be one script. 
+It will be one script when slackup-grub support auto-elilo update...
+
 
