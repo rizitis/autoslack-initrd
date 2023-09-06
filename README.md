@@ -57,4 +57,5 @@ geninitrd
 This script and slackup-grub should be one script. 
 It will be one script when slackup-grub support auto-elilo update...
 
-
+# KEEP IN MIND
+when and if a/sysvinit-scripts is upgraded or rubuilded on new conf files... If you overwrite rc.6 with new .conf autoslack-initrd will stop working...
