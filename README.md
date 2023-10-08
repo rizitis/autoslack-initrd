@@ -8,7 +8,7 @@ cd /etc/rc.d/  && wget https://raw.githubusercontent.com/rizitis/autoslack-initr
 chmod +x autoslack-initrd.sh
 ```
 ```
-nano /etc/rc.d/rc.6
+nano /etc/rc.d/rc.local_shutdown
 ```
 and paste this
 ```
@@ -29,13 +29,6 @@ If you dont have slackup-grub installed
 
 https://github.com/rizitis/slackup-grub
 
-Then add it before 
-```
-# Run any local shutdown scripts:
-if [ -x /etc/rc.d/rc.local_shutdown ]; then
-  /etc/rc.d/rc.local_shutdown stop
-fi
-```
 ### Note that 
 if you dont have slackup-grub installed then you should find a way to auto-update your bootloader.
 else...this script will not help.
@@ -53,9 +46,3 @@ geninitrd
 ```
 ...for your generic kernel, it will do it for you. 
 
-###### TODO
-This script and slackup-grub should be one script. 
-It will be one script when slackup-grub support auto-elilo update...
-
-# KEEP IN MIND
-when and if a/sysvinit-scripts is upgraded or rubuilded on new conf files... If you overwrite rc.6 with new .conf autoslack-initrd will stop working...
