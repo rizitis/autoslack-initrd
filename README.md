@@ -1,3 +1,5 @@
+# THIS PROJECTED MOVED TO [siab](https://github.com/rizitis/siab)
+
 # autoslack-initrd
 ```
 script which running during shutdown or reboot and mkinitrd for generic kernel if slackpkg upgrade-all upgraded kernel
